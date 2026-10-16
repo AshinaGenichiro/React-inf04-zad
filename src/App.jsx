@@ -7,6 +7,7 @@ import Glosowanie from './components/Glosowanie'
 import WyborKoloru from './components/WyborKoloru'
 import FormularzKontaktu from './components/FormularzKontaktu'
 import FormularzLogowania from './components/FormularzLogowania'
+import ListaGosci from './components/ListaGosci'
 import './App.css'
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     <br></br>
     <hr></hr>
     <FormularzLogowania/>
+    <ListaGosci/>
     </>
   )
 }
